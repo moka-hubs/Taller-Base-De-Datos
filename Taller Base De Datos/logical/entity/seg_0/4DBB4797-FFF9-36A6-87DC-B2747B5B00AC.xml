@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A239142-DECB-1851-137D-58593F1A95F4" name="CLIENTE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DBB4797-FFF9-36A6-87DC-B2747B5B00AC" name="PREPARADOR_FISICO">
 <createdBy>moka</createdBy>
-<createdTime>2026-08-21 01:43:39 UTC</createdTime>
+<createdTime>2026-08-22 15:57:44 UTC</createdTime>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
@@ -16,9 +16,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nacionalidad_cliente" id="5B4A7C12-DC00-6E38-485F-4300EEBC218B">
+<Attribute name="especialidad_preparador" id="040DEFB5-C96C-339A-9D9D-6F592EA567FD">
 <createdBy>moka</createdBy>
-<createdTime>2026-08-22 15:54:04 UTC</createdTime>
+<createdTime>2026-08-22 15:58:01 UTC</createdTime>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
@@ -26,8 +26,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>
