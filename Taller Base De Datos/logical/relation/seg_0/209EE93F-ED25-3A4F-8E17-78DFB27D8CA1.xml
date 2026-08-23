@@ -10,7 +10,7 @@
 <identifying>false</identifying>
 <nameOnSource>se duvide</nameOnSource>
 <nameOnTarget>es dividida</nameOnTarget>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>4DCD5CB4-4ECF-3FF3-7B1D-EB2882091D1B</sourceEntity>

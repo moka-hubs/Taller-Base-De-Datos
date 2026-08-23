@@ -10,7 +10,7 @@
 <identifying>false</identifying>
 <nameOnSource>se subdivide</nameOnSource>
 <nameOnTarget>es subdividida</nameOnTarget>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>2ECB5A96-C02C-09F0-B0DF-2F39C2469A6F</sourceEntity>
