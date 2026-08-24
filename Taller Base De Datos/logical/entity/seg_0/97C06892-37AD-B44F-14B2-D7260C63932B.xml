@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97C06892-37AD-B44F-14B2-D7260C63932B" name="CLIENTE">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:33:13 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut_cliente" id="4C4AD86F-A81D-0B7F-347F-18872B98F7B1">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:33:13 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pnombre_cliente" id="F9C88EAE-CBB9-85E0-01F8-E77682627823">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:33:13 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="snombre_cliente" id="C62CC10C-4575-A341-90F4-AF89A71DD2AD">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:33:13 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="papellido_cliente" id="DB9C456D-9503-5EDD-BDEA-5D20B80FFB61">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:33:13 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sapellido_cliente" id="A3F4C055-982F-128A-45E8-0AD0B08F802A">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:33:13 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nac_cliente" id="BBAEFB34-929C-F116-9FA8-67E4B54ECC0D">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:33:13 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad_cliente" id="786BD6BA-D699-902A-10A7-BCDBB39D7CB4">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:35:58 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rutina" id="CC41BD00-9653-55D1-73F9-1A5895207574">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:42:12 UTC</createdTime>
+<generatorID>DEAE4018-24C1-931F-EAEB-2F4A684CCD27</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>4A2DC6C8-1990-01E2-291E-8851D4AFC4F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plan" id="8FA1E706-479B-A05D-D874-4C01178DA554">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:42:48 UTC</createdTime>
+<generatorID>45F0751C-8EA3-5527-9E5A-9F7591CAF0E9</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>2E724E4A-F33F-2C38-91F5-699CD665EF26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4ED7F267-82FA-1E57-C40A-AC033547862C" name="CLIENTE PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:33:13 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>4C4AD86F-A81D-0B7F-347F-18872B98F7B1</newElementsIDs>
+<usedAttributes>
+<attributeRef>4C4AD86F-A81D-0B7F-347F-18872B98F7B1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

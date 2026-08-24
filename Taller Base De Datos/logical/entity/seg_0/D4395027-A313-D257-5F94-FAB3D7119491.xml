@@ -54,6 +54,21 @@
 <dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="rut_preparador" id="327576F0-E32B-0FC6-8D9F-97C938EF06EA">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:39:17 UTC</createdTime>
+<generatorID>633BD8FA-E919-3358-40F0-2015070141A8</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>7F22DEC1-17EB-A415-FA29-0C3C179348D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8F26459E-4D05-5095-A31A-2965D4A00FA5" name="BLOQUE_HORARIO PK">

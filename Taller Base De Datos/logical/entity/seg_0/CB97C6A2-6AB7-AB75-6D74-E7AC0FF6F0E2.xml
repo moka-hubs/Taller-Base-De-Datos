@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD42B913-6F2B-521E-58CC-482DC8BA1F28" name="FICHA_CLIENTE">
-<createdBy>paulo</createdBy>
-<createdTime>2026-08-23 14:34:25 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB97C6A2-6AB7-AB75-6D74-E7AC0FF6F0E2" name="PATOLOGIAS">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:16:06 UTC</createdTime>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
@@ -15,110 +15,98 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_ficha" id="C68F1866-5F6F-E0A9-B16C-1E641D95CB54">
-<createdBy>paulo</createdBy>
-<createdTime>2026-08-23 14:35:46 UTC</createdTime>
-<ownerDesignName>Taller Base De Datos</ownerDesignName>
-<engineerTo>
-<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha_creacion" id="4A3910C8-E450-807F-6765-6788944AD67B">
-<createdBy>paulo</createdBy>
-<createdTime>2026-08-23 14:36:07 UTC</createdTime>
-<ownerDesignName>Taller Base De Datos</ownerDesignName>
-<engineerTo>
-<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="observaciones" id="2B7C241B-69E7-A061-DC4B-D178F8EC1439">
-<createdBy>paulo</createdBy>
-<createdTime>2026-08-23 14:36:35 UTC</createdTime>
-<ownerDesignName>Taller Base De Datos</ownerDesignName>
-<engineerTo>
-<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha_" id="7795F9BE-C66E-D855-6F59-D2B1D40F644C">
+<Attribute name="id_patologia" id="F7226405-8A9F-1E57-6CDA-1C2F2E2C71EF">
 <createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-24 13:16:17 UTC</createdTime>
+<createdTime>2026-08-24 13:17:14 UTC</createdTime>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha_observacion" id="2677798A-143C-507A-C626-27B746F21CE7">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-24 13:19:16 UTC</createdTime>
-<ownerDesignName>Taller Base De Datos</ownerDesignName>
-<engineerTo>
-<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="rut_cliente" id="DC31B82E-0478-F23E-C20E-5D07F18D4DF6">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-24 13:41:10 UTC</createdTime>
-<generatorID>FD964859-1192-C4EE-3DC3-8EDA31909D4D</generatorID>
-<ownerDesignName>Taller Base De Datos</ownerDesignName>
-<engineerTo>
-<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
-</engineerTo>
-<referedAttribute>4C4AD86F-A81D-0B7F-347F-18872B98F7B1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>13</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_metrica" id="01A98F07-D4DF-1D9B-548F-620047A3D958">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-24 13:44:04 UTC</createdTime>
-<generatorID>7591E004-B590-0DB3-95D1-E48627CE11F6</generatorID>
-<ownerDesignName>Taller Base De Datos</ownerDesignName>
-<engineerTo>
-<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
-</engineerTo>
-<referedAttribute>E58AD199-6EC1-5456-D456-DCDA54F52009</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_patologia" id="7156E183-77E9-7AEC-6068-9290DDD7393D">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:17:35 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_patologia" id="31C30E68-F9DC-8273-F285-2EB24914CADF">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:17:55 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grado_patologia" id="BFB48DFB-BE33-1E68-A5D6-C2AA818D624E">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:18:09 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion_patologia" id="7C2E2600-D966-FE93-3786-6933063C12E2">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:18:37 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ficha" id="FEAA68EB-19FF-7714-0CAD-53D9E6770F3C">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:47:03 UTC</createdTime>
+<generatorID>8280D21F-B4C0-AFF9-6E3B-8EE1A38B6EE3</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>C68F1866-5F6F-E0A9-B16C-1E641D95CB54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E17999D4-3670-3C0D-8044-AA1B0C1FC5A8" name="FICHA_CLIENTE PK">
-<createdBy>paulo</createdBy>
-<createdTime>2026-08-23 14:36:00 UTC</createdTime>
+<identifier id="325C0932-2624-6D60-B0AC-F5FFA4FA4640" name="PATOLOGIAS PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:17:33 UTC</createdTime>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C68F1866-5F6F-E0A9-B16C-1E641D95CB54</attributeRef>
+<attributeRef>F7226405-8A9F-1E57-6CDA-1C2F2E2C71EF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

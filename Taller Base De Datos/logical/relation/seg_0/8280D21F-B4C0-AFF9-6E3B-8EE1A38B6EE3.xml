@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESPECIFICAR" directorySegmentName="seg_0" id="8280D21F-B4C0-AFF9-6E3B-8EE1A38B6EE3">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:47:03 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<sourcePk>E17999D4-3670-3C0D-8044-AA1B0C1FC5A8</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>especificar</nameOnSource>
+<nameOnTarget>es especificada</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CD42B913-6F2B-521E-58CC-482DC8BA1F28</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CB97C6A2-6AB7-AB75-6D74-E7AC0FF6F0E2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

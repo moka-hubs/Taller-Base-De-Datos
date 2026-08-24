@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REGISTRAR" directorySegmentName="seg_0" id="7591E004-B590-0DB3-95D1-E48627CE11F6">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:44:04 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<sourcePk>24386F04-98F3-A3F7-8F4A-247FAD24E229</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>registra</nameOnSource>
+<nameOnTarget>es registrada</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0A2988CA-49ED-CAF8-CA35-4ACCD5692E4C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CD42B913-6F2B-521E-58CC-482DC8BA1F28</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

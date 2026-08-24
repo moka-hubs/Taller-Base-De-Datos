@@ -80,6 +80,21 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_rutina" id="680F9D75-F6E6-392E-1E46-8AA9A1C2B4F9">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:44:50 UTC</createdTime>
+<generatorID>32438FC3-A448-00C2-B888-689E0CFF8EB2</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>4A2DC6C8-1990-01E2-291E-8851D4AFC4F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B6E192FC-BB6C-6834-00C2-A7D4A593B95D" name="EJERCICIO PK">

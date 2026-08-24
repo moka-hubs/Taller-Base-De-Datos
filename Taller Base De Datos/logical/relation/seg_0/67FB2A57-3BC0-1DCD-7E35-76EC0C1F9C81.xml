@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DISEÑAR" directorySegmentName="seg_0" id="67FB2A57-3BC0-1DCD-7E35-76EC0C1F9C81">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:40:16 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<sourcePk>98D6FC0A-BA07-E372-CDDF-6E7AB5907D95</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>diseña</nameOnSource>
+<nameOnTarget>es diseñada</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70D486B2-4E05-A777-D8A8-489D47354B9F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5A188DA2-54F2-8763-D01B-DC81D5B0077B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

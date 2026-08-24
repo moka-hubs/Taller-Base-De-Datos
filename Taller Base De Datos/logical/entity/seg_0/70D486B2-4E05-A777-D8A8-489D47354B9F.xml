@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="967AC0B6-2123-072E-B219-D2CA81A1810A" name="PERSONA">
-<createdBy>moka</createdBy>
-<createdTime>2026-08-21 01:43:46 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70D486B2-4E05-A777-D8A8-489D47354B9F" name="PREPARADOR_FISICO">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:30:32 UTC</createdTime>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="rut_persona" id="D40D395C-06FD-A7B2-D8DD-BF1469967031">
-<createdBy>moka</createdBy>
-<createdTime>2026-08-22 15:49:48 UTC</createdTime>
+<Attribute name="rut_preparador" id="7F22DEC1-17EB-A415-FA29-0C3C179348D2">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:31:15 UTC</createdTime>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
@@ -28,9 +28,9 @@
 <dataTypeSize>13</dataTypeSize>
 <ownDataTypeParameters>13,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pnombre_persona" id="4DD08CC5-A821-1EB7-3966-984A538D3774">
-<createdBy>moka</createdBy>
-<createdTime>2026-08-22 15:51:34 UTC</createdTime>
+<Attribute name="pnombre_preparador" id="88382AAA-9836-4954-199B-E43292250860">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:31:35 UTC</createdTime>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
@@ -38,12 +38,26 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="snombre_persona" id="5626FEAF-764C-6B46-6B1B-505791FB0D3A">
-<createdBy>moka</createdBy>
-<createdTime>2026-08-22 15:51:57 UTC</createdTime>
+<Attribute name="snombre_preparador" id="E0C15092-4912-8CBE-5D9E-B030B90BDF68">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:31:52 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="papellido_preparador" id="1287D43C-CCFE-6646-F991-9EDE02615F56">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:32:13 UTC</createdTime>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
@@ -51,38 +65,26 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="papellido_persona" id="31C95CCA-4D0B-A5A8-A6F4-A1745C149F23">
-<createdBy>moka</createdBy>
-<createdTime>2026-08-22 15:52:10 UTC</createdTime>
+<Attribute name="sapellido_preparador" id="EDC5A9FF-35D5-ED7D-3694-8A526317729E">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:32:29 UTC</createdTime>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sapellido_persona" id="E770A333-FA67-9F5B-8C74-AF87C9F766A6">
-<createdBy>moka</createdBy>
-<createdTime>2026-08-22 15:52:40 UTC</createdTime>
-<ownerDesignName>Taller Base De Datos</ownerDesignName>
-<engineerTo>
-<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha_nac_persona" id="DB435EAD-29DF-ED9D-C182-1DD450CEA15E">
-<createdBy>moka</createdBy>
-<createdTime>2026-08-22 15:53:12 UTC</createdTime>
+<Attribute name="fecha_nac_preparador" id="1FDB907E-2060-BE17-98FF-23C3CF8F9F5A">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:32:44 UTC</createdTime>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
@@ -92,18 +94,31 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="especialidad_preparador" id="FF64FCE3-BABA-EF6A-9BF1-89DCED86D958">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:36:14 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5A0A0CE1-FCD1-85FC-9B59-2EC041A27F8E" name="PERSONA PK">
-<createdBy>moka</createdBy>
-<createdTime>2026-08-22 15:49:59 UTC</createdTime>
+<identifier id="98D6FC0A-BA07-E372-CDDF-6E7AB5907D95" name="PREPARADOR FISICO PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:31:34 UTC</createdTime>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D40D395C-06FD-A7B2-D8DD-BF1469967031</attributeRef>
+<attributeRef>7F22DEC1-17EB-A415-FA29-0C3C179348D2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
