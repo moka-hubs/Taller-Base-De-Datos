@@ -65,6 +65,21 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_plan" id="A601D979-650F-A0CE-41C7-A01588E74979">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:42:41 UTC</createdTime>
+<generatorID>6D7C8B7E-CDEE-D175-F177-889695A87F9E</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>2E724E4A-F33F-2C38-91F5-699CD665EF26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="BF60D0B7-3C26-4790-D6EF-63DDAB13E39E" name="CONTRATO PK">

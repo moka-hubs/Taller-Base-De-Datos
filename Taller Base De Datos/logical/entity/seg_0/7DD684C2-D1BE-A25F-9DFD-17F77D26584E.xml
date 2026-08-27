@@ -66,6 +66,51 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_contrato" id="187DDB24-7D2E-6A58-679B-A634823C8449">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:07:04 UTC</createdTime>
+<generatorID>14EF8586-9C0E-EC48-4BB3-17AC50E3D228</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>D46B7DE7-07EF-F214-B7EC-0F75F5090842</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_factura" id="154B25E7-1243-9B47-1807-52E9987119B8">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:08:50 UTC</createdTime>
+<generatorID>5FF563EF-C5DC-2433-9D8B-A959F25490F8</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>0541A3C2-B912-702E-8BA2-B921BB9DAA1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_metodo_pago" id="C5CAC9C4-D5F6-4543-D41E-A87E96BAC638">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:09:18 UTC</createdTime>
+<generatorID>6B9AE865-D6A2-7114-E70C-3A3524BF88DD</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>BEE285FD-31C1-1108-2105-4A99A3AAD5B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="FD0602CF-F8D8-93F0-9FCE-DB4F3E4CB375" name="PAGO PK">

@@ -53,6 +53,50 @@
 <dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_agendar" id="9553B72B-E133-7F8C-AAA2-5E177C02AD5D">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 15:43:30 UTC</createdTime>
+<generatorID>C6959C40-1BE1-656C-E785-762CE8982E81</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>318F7183-FEF1-D68F-6DC8-46AE3AD64521</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_agendar" id="7E35ECB4-8E67-6D3A-18F8-479CFA1E9ADC">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 15:43:30 UTC</createdTime>
+<generatorID>C6959C40-1BE1-656C-E785-762CE8982E81</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>807657CE-83EE-4243-1E38-42E260060510</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rutina" id="88324D6A-AF5E-D12E-CD8E-628DEC59EC27">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 15:44:51 UTC</createdTime>
+<generatorID>DBBB322D-7DE7-091A-65BF-05D7BBA78BA9</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>4A2DC6C8-1990-01E2-291E-8851D4AFC4F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5FD6D702-9CAE-F5E6-402A-5F755C0B0618" name="SESION_ENTRENAMIENTO PK">

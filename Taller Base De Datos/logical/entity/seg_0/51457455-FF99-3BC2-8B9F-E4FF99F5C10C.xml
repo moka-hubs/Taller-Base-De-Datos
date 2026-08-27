@@ -53,6 +53,21 @@
 <dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_pago" id="4EB27F5E-0008-7DDB-9C3F-036B10569294">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:08:34 UTC</createdTime>
+<generatorID>5FF563EF-C5DC-2433-9D8B-A959F25490F8</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>5C7AFD24-C56E-4449-3263-E146B3A8D165</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D6128E3A-9017-82BD-1A0C-695BADE9EFC8" name="FACTURA PK">

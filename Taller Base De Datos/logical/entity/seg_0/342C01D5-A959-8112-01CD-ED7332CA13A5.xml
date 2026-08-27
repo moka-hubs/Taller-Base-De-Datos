@@ -93,7 +93,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>13</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="rut_cliente" id="9D06E2B7-3A8B-36C9-097F-57CA41403BCB">
 <createdBy>SJ-Alumno</createdBy>
@@ -108,7 +108,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>13</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

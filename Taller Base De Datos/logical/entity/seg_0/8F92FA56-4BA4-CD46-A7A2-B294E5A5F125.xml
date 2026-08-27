@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F92FA56-4BA4-CD46-A7A2-B294E5A5F125" name="AGENDAR">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F92FA56-4BA4-CD46-A7A2-B294E5A5F125" name="AGENDA">
 <createdBy>paulo</createdBy>
 <createdTime>2026-08-23 14:46:32 UTC</createdTime>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
@@ -65,6 +65,51 @@
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_preparador" id="0A8ED7B6-A130-634C-A8E5-0A29661BAE7A">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 15:56:25 UTC</createdTime>
+<generatorID>31CEECF3-64F2-EBB7-9F23-FC4B28342C2E</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>7F22DEC1-17EB-A415-FA29-0C3C179348D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_cliente" id="84E74790-CDED-49BB-6500-D7B224826424">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 15:58:04 UTC</createdTime>
+<generatorID>0726DBCC-D97C-14CC-8EE1-0CE4E31A5AF5</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>4C4AD86F-A81D-0B7F-347F-18872B98F7B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_bloque" id="7C6D9C9F-0E4C-08E0-1322-C01A83E83A1F">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:01:12 UTC</createdTime>
+<generatorID>61E9E9A2-61ED-9554-E984-5F56AEB9ACAC</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>0DD01537-8B81-D91E-BA7B-DF898BB88754</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

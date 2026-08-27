@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OFRECERv2" directorySegmentName="seg_0" id="6D7C8B7E-CDEE-D175-F177-889695A87F9E">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:03:28 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<sourcePk>9993CA8A-5352-9668-B4E7-12BDDB856CBE</sourcePk>
+<targetPk>BF60D0B7-3C26-4790-D6EF-63DDAB13E39E</targetPk>
+<identifying>false</identifying>
+<nameOnSource>ofrece</nameOnSource>
+<nameOnTarget>es ofrecido</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>342C01D5-A959-8112-01CD-ED7332CA13A5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AA551FCA-D83E-4FBB-355E-5236553207F2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fecha_ini_contrato" id="EC397798-4E67-D9FD-F920-8940B604AC8A">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:41:20 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="fecha_ter_contrato" id="29636D8B-46EF-D7C0-4B5D-E1FAB5A7AE95">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:41:37 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
