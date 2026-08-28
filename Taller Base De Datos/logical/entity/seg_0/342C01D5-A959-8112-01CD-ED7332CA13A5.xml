@@ -80,10 +80,10 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="rut_preparador" id="2600F48F-9235-4309-7A32-6B0A2F49EE24">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-24 13:39:49 UTC</createdTime>
-<generatorID>B2D7D9E7-38C0-51C4-B165-190533F299E2</generatorID>
+<Attribute name="rut_preparador" id="DFBA825A-0C3A-E0D9-3CFA-EA07E05D5775">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 22:55:23 UTC</createdTime>
+<generatorID>73F90125-BF27-CB10-69A5-FD5772AF9D5C</generatorID>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
@@ -93,12 +93,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>13</dataTypeSize>
-<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="rut_cliente" id="9D06E2B7-3A8B-36C9-097F-57CA41403BCB">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-24 13:42:28 UTC</createdTime>
-<generatorID>45F0751C-8EA3-5527-9E5A-9F7591CAF0E9</generatorID>
+<Attribute name="rut_cliente" id="954833C0-4952-3850-1725-A5E81AFC24A2">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 22:57:38 UTC</createdTime>
+<generatorID>D8D7C968-3772-2EC1-5F47-958552238902</generatorID>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
@@ -108,7 +108,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>13</dataTypeSize>
-<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

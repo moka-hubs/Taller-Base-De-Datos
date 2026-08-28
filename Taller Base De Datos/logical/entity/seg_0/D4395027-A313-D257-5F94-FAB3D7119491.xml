@@ -54,10 +54,10 @@
 <dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="rut_preparador" id="327576F0-E32B-0FC6-8D9F-97C938EF06EA">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-24 13:39:17 UTC</createdTime>
-<generatorID>633BD8FA-E919-3358-40F0-2015070141A8</generatorID>
+<Attribute name="rut_preparador" id="792BEA0C-9A6C-69EF-99EE-D3C9FD9CD2CA">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 22:56:51 UTC</createdTime>
+<generatorID>98DA834C-370E-7E3B-1A5F-E1A011399DED</generatorID>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
@@ -67,7 +67,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>13</dataTypeSize>
-<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

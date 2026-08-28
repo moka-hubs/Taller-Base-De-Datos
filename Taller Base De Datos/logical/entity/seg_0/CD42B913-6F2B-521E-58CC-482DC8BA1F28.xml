@@ -77,10 +77,10 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="rut_cliente" id="DC31B82E-0478-F23E-C20E-5D07F18D4DF6">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-24 13:41:10 UTC</createdTime>
-<generatorID>FD964859-1192-C4EE-3DC3-8EDA31909D4D</generatorID>
+<Attribute name="rut_cliente" id="0B00A04A-E23E-0651-5F32-C9A5C137556D">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 22:47:22 UTC</createdTime>
+<generatorID>6D808551-EC35-184D-0255-245BA2CD47EC</generatorID>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
@@ -92,10 +92,10 @@
 <dataTypeSize>13</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_metrica" id="01A98F07-D4DF-1D9B-548F-620047A3D958">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-24 13:44:04 UTC</createdTime>
-<generatorID>7591E004-B590-0DB3-95D1-E48627CE11F6</generatorID>
+<Attribute name="id_metrica" id="A9E237A0-8FF3-0666-AFD9-69A65B778EB9">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 22:52:31 UTC</createdTime>
+<generatorID>8EFA770A-FE03-0AB4-7FE0-31DCA960CCA7</generatorID>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>

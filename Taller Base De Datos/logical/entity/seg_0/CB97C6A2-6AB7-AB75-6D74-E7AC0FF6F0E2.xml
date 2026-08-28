@@ -80,10 +80,10 @@
 <dataTypeSize>150</dataTypeSize>
 <ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_ficha" id="FEAA68EB-19FF-7714-0CAD-53D9E6770F3C">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-24 13:47:03 UTC</createdTime>
-<generatorID>8280D21F-B4C0-AFF9-6E3B-8EE1A38B6EE3</generatorID>
+<Attribute name="id_ficha" id="78EB5F7E-9CB1-2D56-4E6A-C3AD44DCF13B">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 22:54:14 UTC</createdTime>
+<generatorID>EE88E2A9-09C1-0F00-5F5E-DB58B2998B2A</generatorID>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>

@@ -108,25 +108,10 @@
 <dataTypeSize>150</dataTypeSize>
 <ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_rutina" id="CC41BD00-9653-55D1-73F9-1A5895207574">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-24 13:42:12 UTC</createdTime>
-<generatorID>DEAE4018-24C1-931F-EAEB-2F4A684CCD27</generatorID>
-<ownerDesignName>Taller Base De Datos</ownerDesignName>
-<engineerTo>
-<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
-</engineerTo>
-<referedAttribute>4A2DC6C8-1990-01E2-291E-8851D4AFC4F1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_plan" id="8FA1E706-479B-A05D-D874-4C01178DA554">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-24 13:42:48 UTC</createdTime>
-<generatorID>45F0751C-8EA3-5527-9E5A-9F7591CAF0E9</generatorID>
+<Attribute name="id_plan" id="B3213655-8599-914A-DF90-BBC46072E601">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 22:57:52 UTC</createdTime>
+<generatorID>D8D7C968-3772-2EC1-5F47-958552238902</generatorID>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
@@ -136,7 +121,22 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rutina" id="E5E151FD-1EAD-E079-E9D8-91E7BE1B1C02">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 23:07:24 UTC</createdTime>
+<generatorID>F1EDF219-A5CF-DAB5-9CA5-82F1E4B9D01E</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>4A2DC6C8-1990-01E2-291E-8851D4AFC4F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

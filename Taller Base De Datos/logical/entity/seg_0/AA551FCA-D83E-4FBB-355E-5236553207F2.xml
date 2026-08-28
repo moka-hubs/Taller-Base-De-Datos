@@ -65,10 +65,10 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_plan" id="A601D979-650F-A0CE-41C7-A01588E74979">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-27 16:42:41 UTC</createdTime>
-<generatorID>6D7C8B7E-CDEE-D175-F177-889695A87F9E</generatorID>
+<Attribute name="id_plan" id="D29FD149-8153-58AE-FD9D-D8EDAC4C552C">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 22:58:36 UTC</createdTime>
+<generatorID>0057DBC4-B138-2884-45CD-7945A8F5B4A5</generatorID>
 <ownerDesignName>Taller Base De Datos</ownerDesignName>
 <engineerTo>
 <item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
