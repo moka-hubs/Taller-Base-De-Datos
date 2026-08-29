@@ -12,7 +12,7 @@
 <nameOnTarget>es diseñada</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>70D486B2-4E05-A777-D8A8-489D47354B9F</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>5A188DA2-54F2-8763-D01B-DC81D5B0077B</targetEntity>
